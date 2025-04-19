@@ -29,3 +29,60 @@ form {
   margin-left: 60px;
   margin-top: 50px;
 }
+
+form input {
+  padding: 6px;
+  width: 230px;
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 230px;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.already {
+  margin-top: 20px;
+}
+
+form p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.input-container p.msg {
+  visibility: hidden;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input-container.error p.msg {
+  visibility: visible;
+}
+
+.content h1 {
+  position: absolute;
+  color: white;
+  top: 70%;
+  right: 44%;
+  font-size: 5rem;
+}
+
+.input-container.input-container.error {
+  border: 2px solid red;
+}
+
+.input-container.success {
+  border: 2px solid rgb(97, 249, 97);
+}
+
+img {
+  width: 51%;
+  position: absolute;
+  right: 10%;
+  top: 60px;
+}
